@@ -1,0 +1,43 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --history-api-fallback --open",
+    "prod": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpwilliams/react-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpwilliams/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jpwilliams/react-boilerplate#readme",
+  "dependencies": {
+    "eventemitter3": "^2.0.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-hot-loader": "^1.3.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
